@@ -1,0 +1,16 @@
+spring:
+    application:
+        name: challenge_forohub
+    datasource:
+        url: ${FORODB_URL}
+        username: ${FORODB_USER}
+        password: ${FORODB_PASSWORD}
+    jpa:
+        show-sql: true
+        properties:
+            hibernate:
+                format_sql: true
+
+server:
+    error:
+        include-stacktrace: never
